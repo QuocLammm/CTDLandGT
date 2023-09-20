@@ -209,8 +209,8 @@ int KTcayNPTK(Node *root)
         else
             if(root->right == NULL) KTcayNPTK(root->left);
             else
-                if(root->left->info > root->info || root->right->info < root->info)
-    return 0;
+                if(root->left->info > root->info || root->right->info < root->info);
+            return 0;
 }
 
 int main() {
